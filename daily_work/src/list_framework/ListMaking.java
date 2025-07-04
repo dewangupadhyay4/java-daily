@@ -1,6 +1,7 @@
 package list_framework;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class ListMaking {
@@ -40,9 +41,12 @@ public class ListMaking {
 //		makingList.add("phone");
 //		System.out.println(makingList);
 		
-		for(int i=0;i<makingList.size();i++) {
-			System.out.println(makingList.get(i));
-		}
+//		for(int i=0;i<makingList.size();i++) {
+//			System.out.println(makingList.get(i));
+//		}
+		
+		List<Integer> newList=Arrays.asList(1,2,3,4,5,6,7,8,8);
+		System.out.println(newList);
 		
 		
 	}
